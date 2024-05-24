@@ -9,7 +9,7 @@
   "pip_url": "git+https://github.com/Matatika/dbt-artifacts-ext.git",
   "executable": "dbt-artifacts_extension",
   "description": "A tool for processing [dbt artifacts](https://docs.getdbt.com/reference/artifacts/dbt-artifacts).",
-  "logo_url": "https://app.matatika.com:3443/assets/logos/utilities/dbt.png",
+  "logo_url": "https://app.matatika.com/assets/logos/utilities/dbt.png",
   "settings": [
     {
       "name": "source_dir",
