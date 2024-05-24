@@ -1,0 +1,7 @@
+version: pipelines/v0.1
+name: AutoDesk Forge BIM 360
+timeout: 0
+max_retries: 0
+data_components:
+- tap-autodesk-bim-360
+- Warehouse
