@@ -1,0 +1,54 @@
+{
+  "plugin_type": "loaders",
+  "name": "target-mssql",
+  "namespace": "target_mssql",
+  "variant": "storebrand",
+  "label": "Microsoft SQL Server",
+  "docs": "https://www-localhost.matatika.com/data-details/target-mssql/",
+  "repo": "https://github.com/storebrand/target-mssql",
+  "pip_url": "git+https://github.com/storebrand/target-mssql.git",
+  "description": "Microsoft SQL Server is a relational database management system.\n\nMicrosoft SQL Server is a software tool that allows users to store, manage, and retrieve data from relational databases. It provides a secure and scalable platform for businesses to manage their data, with features such as data warehousing, business intelligence, and advanced analytics. SQL Server also offers tools for developers to build and deploy applications that interact with the database, as well as tools for administrators to manage and monitor the system. Overall, SQL Server is a powerful and versatile tool for managing data in a variety of business settings.",
+  "logo_url": "https://localhost:3443/assets/logos/loaders/mssql.png",
+  "capabilities": [
+    "stream-maps",
+    "schema-flattening",
+    "about"
+  ],
+  "settings": [
+    {
+      "name": "sqlalchemy_url",
+      "kind": "string",
+      "label": "SQLAlchemy Url",
+      "description": "The URL used to connect to the Microsoft SQL Server API using SQLAlchemy.",
+      "protected": false
+    },
+    {
+      "name": "stream_maps",
+      "kind": "object",
+      "label": "Stream Maps",
+      "description": "A list of stream maps that define how to map data from the API to the destination database.",
+      "protected": false
+    },
+    {
+      "name": "stream_map_config",
+      "kind": "object",
+      "label": "Stream Map Config",
+      "description": "Configuration settings for the stream maps, such as the source and destination tables.",
+      "protected": false
+    },
+    {
+      "name": "flattening_enabled",
+      "kind": "boolean",
+      "label": "Flattening Enabled",
+      "description": "A boolean value indicating whether or not to flatten nested JSON data before inserting it into the database.",
+      "protected": false
+    },
+    {
+      "name": "flattening_max_depth",
+      "kind": "integer",
+      "label": "Flattening Max Depth",
+      "description": "The maximum depth to which nested JSON data will be flattened.",
+      "protected": false
+    }
+  ]
+}
