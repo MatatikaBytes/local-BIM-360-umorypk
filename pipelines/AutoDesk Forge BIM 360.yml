@@ -4,4 +4,4 @@ timeout: 0
 max_retries: 0
 data_components:
 - tap-autodesk-bim-360
-- Warehouse
+- target-mssql
