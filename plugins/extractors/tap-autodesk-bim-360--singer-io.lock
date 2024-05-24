@@ -1,0 +1,57 @@
+{
+  "plugin_type": "extractors",
+  "name": "tap-autodesk-bim-360",
+  "namespace": "tap_autodesk_bim_360",
+  "variant": "singer-io",
+  "label": "AutoDesk Forge BIM 360",
+  "docs": "https://www-localhost.matatika.com/data-details/tap-autodesk-bim-360/",
+  "repo": "https://github.com/singer-io/tap-autodesk-bim-360",
+  "pip_url": "tap-autodesk-bim-360",
+  "description": "AutoDesk Forge BIM 360 is a cloud-based construction management software.\n\nAutoDesk Forge BIM 360 allows project teams to collaborate and manage construction projects from design through to construction and operations. It provides real-time project data, document management, and collaboration tools with features such as 3D modeling, project scheduling, and cost management to help teams stay on track and within budget.  Together with Matatika teams can remove data silos, reduce errors, and improve project outcomes.\n\nThis connector pulls raw data from the Autodesk Forge BIM 360 API and Data Management API.\n\n- business_units\n- projects\n- checklists\n- issues\n- folder_contents\n\nSee the [Audodesk BIM 360 API getting started guide](https://aps.autodesk.com/en/docs/bim360/v1/tutorials/getting-started/) for step by step instructions to get access to the Audodesk BIM 360 API",
+  "logo_url": "https://localhost:3443/assets/logos/extractors/autodesk-bim-360.png",
+  "capabilities": [
+    "catalog",
+    "discover"
+  ],
+  "settings": [
+    {
+      "name": "start_date",
+      "kind": "date_iso8601",
+      "label": "Start Date",
+      "description": "The date from which to retrieve data from the Autodesk BIM 360 API.",
+      "protected": false
+    },
+    {
+      "name": "account_id",
+      "kind": "string",
+      "label": "Account ID",
+      "description": "Autodesk BIM 360 Account ID.",
+      "protected": false,
+      "required": "true"
+    },
+    {
+      "name": "client_id",
+      "kind": "string",
+      "label": "API Client ID",
+      "description": "OAuth Client ID.",
+      "protected": false,
+      "required": "true"
+    },
+    {
+      "name": "client_secret",
+      "kind": "password",
+      "label": "API Client Secret",
+      "description": "OAuth Client Secret.",
+      "protected": false,
+      "required": "true"
+    },
+    {
+      "name": "refresh_token",
+      "kind": "password",
+      "label": "Refresh Token",
+      "description": "OAuth Refresh Token.",
+      "protected": false,
+      "required": "true"
+    }
+  ]
+}
