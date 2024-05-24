@@ -8,7 +8,7 @@
   "repo": "https://github.com/storebrand/target-mssql",
   "pip_url": "git+https://github.com/storebrand/target-mssql.git",
   "description": "Microsoft SQL Server is a relational database management system.\n\nMicrosoft SQL Server is a software tool that allows users to store, manage, and retrieve data from relational databases. It provides a secure and scalable platform for businesses to manage their data, with features such as data warehousing, business intelligence, and advanced analytics. SQL Server also offers tools for developers to build and deploy applications that interact with the database, as well as tools for administrators to manage and monitor the system. Overall, SQL Server is a powerful and versatile tool for managing data in a variety of business settings.",
-  "logo_url": "https://localhost:3443/assets/logos/loaders/mssql.png",
+  "logo_url": "https://app.matatika.com:3443/assets/logos/loaders/mssql.png",
   "capabilities": [
     "stream-maps",
     "schema-flattening",

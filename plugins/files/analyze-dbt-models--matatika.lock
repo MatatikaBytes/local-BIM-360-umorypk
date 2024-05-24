@@ -7,7 +7,7 @@
   "repo": "https://github.com/Matatika/analyze-dbt-models",
   "pip_url": "git+https://github.com/Matatika/analyze-dbt-models@v0.2.0",
   "description": "Instant insights on lineage of your dbt models.",
-  "logo_url": "https://localhost:3443/assets/images/transformer/dbt.png",
+  "logo_url": "https://app.matatika.com:3443/assets/images/transformer/dbt.png",
   "requires": {
     "transformers": [
       {
