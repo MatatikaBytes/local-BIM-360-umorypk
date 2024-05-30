@@ -8,8 +8,8 @@ environments:
 plugins:
   extractors:
   - name: tap-autodesk-bim-360
-    variant: singer-io
-    pip_url: tap-autodesk-bim-360
+    variant: matatika
+    pip_url: git+https://github.com/Matatika/tap-autodesk-bim-360.git@dev
   loaders:
   - name: target-postgres
     variant: matatika
