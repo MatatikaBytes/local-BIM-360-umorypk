@@ -10,6 +10,9 @@ plugins:
   - name: tap-autodesk-bim-360
     variant: matatika
     pip_url: git+https://github.com/Matatika/tap-autodesk-bim-360.git@dev
+    select:
+    - '*.*'
+    - '!issues.*'
   loaders:
   - name: target-postgres
     variant: matatika
