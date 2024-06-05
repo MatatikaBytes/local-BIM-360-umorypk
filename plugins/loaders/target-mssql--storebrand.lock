@@ -20,35 +20,9 @@
       "kind": "string",
       "label": "SQLAlchemy Url",
       "description": "The URL used to connect to the Microsoft SQL Server API using SQLAlchemy.",
-      "protected": false
-    },
-    {
-      "name": "stream_maps",
-      "kind": "object",
-      "label": "Stream Maps",
-      "description": "A list of stream maps that define how to map data from the API to the destination database.",
-      "protected": false
-    },
-    {
-      "name": "stream_map_config",
-      "kind": "object",
-      "label": "Stream Map Config",
-      "description": "Configuration settings for the stream maps, such as the source and destination tables.",
-      "protected": false
-    },
-    {
-      "name": "flattening_enabled",
-      "kind": "boolean",
-      "label": "Flattening Enabled",
-      "description": "A boolean value indicating whether or not to flatten nested JSON data before inserting it into the database.",
-      "protected": false
-    },
-    {
-      "name": "flattening_max_depth",
-      "kind": "integer",
-      "label": "Flattening Max Depth",
-      "description": "The maximum depth to which nested JSON data will be flattened.",
-      "protected": false
+      "protected": false,
+      "placeholder": "mssql+pymssql://<username>:<password>@<host>?database=<database>",
+      "required": "true"
     }
   ]
 }
