@@ -15,13 +15,6 @@
   ],
   "settings": [
     {
-      "name": "start_date",
-      "kind": "date_iso8601",
-      "label": "Start Date",
-      "description": "The date from which to retrieve data from the Autodesk BIM 360 API.",
-      "protected": false
-    },
-    {
       "name": "account_id",
       "kind": "string",
       "label": "Account ID",
