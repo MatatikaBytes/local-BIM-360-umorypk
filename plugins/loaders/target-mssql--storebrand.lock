@@ -18,8 +18,8 @@
     {
       "name": "sqlalchemy_url",
       "kind": "string",
-      "label": "SQLAlchemy Url",
-      "description": "The URL used to connect to the Microsoft SQL Server API using SQLAlchemy.",
+      "label": "SQLAlchemy URL",
+      "description": "The URL used to connect to the Microsoft SQL Server API using SQLAlchemy. Supply in the format `mssql+pymssql://<username>:<password>@<host>?database=<database>`",
       "protected": false,
       "placeholder": "mssql+pymssql://<username>:<password>@<host>?database=<database>",
       "required": "true"
