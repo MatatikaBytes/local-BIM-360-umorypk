@@ -1,0 +1,9 @@
+version: pipelines/v0.1
+name: Test MSSQL connection
+timeout: 0
+max_retries: 0
+script: |
+  meltano install loader target-mssql
+  cat extract/tap-f1.circuits.out | meltano invoke target-mssql
+data_components:
+- target-mssql
