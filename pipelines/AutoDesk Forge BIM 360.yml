@@ -1,6 +1,6 @@
 version: pipelines/v0.1
 name: AutoDesk Forge BIM 360
-timeout: 0
+timeout: 86400
 max_retries: 0
 data_components:
 - tap-autodesk-bim-360
